@@ -36,15 +36,13 @@ public class UserService {
     }
 
     public Optional<UserResponse> fetchUser(Long id) {
-       return userRepository.findById(id);
+       return userRepository.findById(id)
+               .map(this::mapToUserResponse);
     }
-    public boolean updateUser(Long id, User updateUser ){
+    public boolean updateUser(Long id, UserRequest updatedUserRequest ){
         return userRepository.findById(id)
-                .map(this::mapToUserResponse)
-
                 .map(existingUser -> {
-                    existingUser.setFirstName(updateUser.getFirstName());
-                    existingUser.setLastName(updateUser.getLastName());
+                    updateUserFromRequest(existingUser ,updatedUserRequest);
                     userRepository.save(existingUser);
                     return true;
                 }).orElse(false);
@@ -53,10 +51,15 @@ public class UserService {
     user.setFirstName(userRequest.getFirstName());
     user.setLastName(userRequest.getLastName());
     user.setEmail(userRequest.getEmail());
-    user.setPhone(user.getPhone());
+    user.setPhone(userRequest.getPhone());
     if(userRequest.getAddress()!= null) {
         Address address = new Address();
-//        address
+       address.setStreet(userRequest.getAddress().getStreet());
+       address.setState(userRequest.getAddress().getState());
+       address.setZipcode(userRequest.getAddress().getZipcode());
+       address.setCity(userRequest.getAddress().getCity());
+       address.setCountry(userRequest.getAddress().getCountry());
+       user.setAddress(address);
         }
 
     }
