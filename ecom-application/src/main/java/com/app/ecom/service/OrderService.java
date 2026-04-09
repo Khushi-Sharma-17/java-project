@@ -1,8 +1,10 @@
-package com.app.ecom.service.;
+package com.app.ecom.service;
 
+import com.app.ecom.dto.OrderItemDTO;
 import com.app.ecom.dto.OrderResponse;
 import com.app.ecom.dto.UserRequest;
 import com.app.ecom.model.*;
+import com.app.ecom.repository.OrderRepository;
 import com.app.ecom.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -17,6 +19,7 @@ import java.util.stream.Collectors;
 public class OrderService {
     private final CartService cartService;
     private final UserRepository userRepository;
+    private final OrderRepository orderRepository;
     public Optional<OrderResponse> createOrder(String userId) {
 
         //Validate for cart items
@@ -53,7 +56,30 @@ public class OrderService {
                 ))
                 .toList();
         order.setItems(orderItems);
-        //Clear the cart
+        Order savedOrder = orderRepository.save(order);
 
+        //Clear the cart
+        cartService.clearCart(userId);
+
+        return Optional.of(mapToOrderResponse(savedOrder));
+
+    }
+
+    private OrderResponse mapToOrderResponse(Order order) {
+        return new OrderResponse(
+                order.getId(),
+                order.getTotalAmount(),
+                order.getStatus(),
+                order.getItems().stream()
+                        .map(orderItem -> new OrderItemDTO(
+                                orderItem.getId(),
+                                orderItem.getProduct().getId(),
+                                orderItem.getQuantity(),
+                                orderItem.getPrice(),
+                                orderItem.getPrice().multiply(new BigDecimal(orderItem.getQuantity()))
+                        ))
+                        .toList(),
+                order.getCreatedAt()
+        );
     }
 }
