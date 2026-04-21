@@ -17,89 +17,100 @@
 #          url: jdbc:h2:mem:test
 
 
-#spring:
-#  application:
-#    name: ecom-application
-#
-##  h2:
-##    console:
-##      enabled: true
-##      path: /h2-console
-##
-#
-#  datasource:
-#    url: jdbc:postgresql://localhost:5432/ksharma
-#      username: ksharma
-#      password: ksharma
-#jpa:
-#    database: POSTGRESQL
-#    show-sql: true
-#    hibernate:
-#         ddl-auto: update
-#    database-platform: org.hibernate.dialect.PostgreSQLDialect
-#
-#
-##    username: sa
-##    password:
-##    driver-class-name: org.h2.Driver
-##
-##  jpa:
-##    show-sql: true
-##
-##server:
-##  port: 8080
-##
-##  jpa:
-##    show-sql: true
-##    hibernate:
-##      ddl-auto: create
-#  server:
-#   port: 8080
-#
-#management:
-#    endpoints:
-#      web:
-#        exposure:
-#          include: '*'
-#    endpoint:
-#      health:
-#        show=details: always
-#      shutdown:
-#        enabled: true
-#    info:
-#      env:
-#        enabled: true
-#
-#    server:
-#     shutdown: graceful
-#info:
-#  app:
-#  name: MyNewApp
-#  description: App built by us
-#  version: 1.0.0
+#..spring:
+ # ..application:
+  #  ..name: ecom-application
+
+#  ..h2:
+  #  ..console:
+    #  ..enabled: true
+     # ..path: /h2-console
+
+  #  h2:
+  #    console:
+  #      enabled: true
+  #      path: /h2-console
+  #
+#..datasource:
+ # ..url: jdbc:h2:mem:test
+ # ..username: sa
+ # ..password:
+ #   ..driver-class-name: org.h2.Driver
+
+   # ..url: jdbc:postgresql://localhost:5432/ecomdb
+   # ..username: ksharma
+   # ..password: ksharma
+ # ..jpa:
+   # ..database: POSTGRESQL
+   # ..show-sql: true
+    #..hibernate:
+     # ..ddl-auto: update
+    #..database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+    #..server:
+     # ..port: 8080
+
+#..jpa:
+ #   ..show-sql: true
+  #  ..hibernate:
+   # ..  ddl-auto: create
+  #    username: sa
+  #    password:
+  #    driver-class-name: org.h2.Driver
+  #
+  #  jpa:
+  #    show-sql: true
+  #
+  #server:
+  #  port: 8080
+  #
+  #  jpa:
+  #    show-sql: true
+  #    hibernate:
+  #      ddl-auto: create
+  # ... server:
+   #... port: 8080
+
+
+#...endpoint:
+ #... health:
+  # ... show=details: always
+  #...shutdown:
+   #... enabled: true
+ #... info:
+  #...env:
+   #... enabled: true
+
+#...server:
+ # ...shutdown: graceful
+#...info:
+ # ...app:
+ #... name: MyNewApp
+
+
 
 
 spring:
   application:
     name: ecom-application
 
+
   datasource:
-    url: jdbc:postgresql://localhost:5432/ecom_db?currentSchema=public
+    url: jdbc:postgresql://localhost:5432/ksharma?currentSchema=public&options=-c%20TimeZone=Asia/Kolkata
     username: ksharma
     password: ksharma
     driver-class-name: org.postgresql.Driver
 
+
   jpa:
+    show-sql: true
     hibernate:
       ddl-auto: update
-    show-sql: true
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-        format_sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 server:
   port: 8080
+  shutdown: graceful
 
 management:
   endpoints:
@@ -110,7 +121,11 @@ management:
     health:
       show-details: always
 
-logging:
-  level:
-    org.springframework: INFO
-    org.hibernate.SQL: DEBUG
+info:
+  app:
+    name: MyNewApp
+
+
+
+
+

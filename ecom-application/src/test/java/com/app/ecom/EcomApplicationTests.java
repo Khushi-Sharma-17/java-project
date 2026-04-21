@@ -8,6 +8,8 @@ class EcomApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// disabled test
 	}
-
 }
+
+
