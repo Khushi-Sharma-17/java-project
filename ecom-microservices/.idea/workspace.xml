@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="85875fd7-0dc3-4624-a1b1-293aa469a35a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/controllers/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/controllers/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dtos/CartItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dtos/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dtos/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/models/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/models/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/models/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/repositories/CartItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/repositories/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/services/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/dtos/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/dtos/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dto/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dto/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dto/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/services/UserService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="3Cksxql3ff1x8peonxJfkjJXbeV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/springboot/ecom-microservices"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="85875fd7-0dc3-4624-a1b1-293aa469a35a" name="Changes" comment="" />
+      <created>1776941152111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776941152111</updated>
+    </task>
+    <servers />
+  </component>
+</project>
