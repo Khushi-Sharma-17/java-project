@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85875fd7-0dc3-4624-a1b1-293aa469a35a" name="Changes" comment="" />
+    <list default="true" id="85875fd7-0dc3-4624-a1b1-293aa469a35a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/UserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/dto/AddressDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/dto/UserRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/dto/UserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/models/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/models/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/target/test-classes/com/ecommerce/user/UserApplicationTests.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +68,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/springboot/ecom-microservices/product/pom.xml"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/springboot/ecom-microservices/user/src/main/java/com.ecommerce.user",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springboot\ecom-microservices\user\src\main\java\com.ecommerce.user" />
+      <recent name="D:\springboot\ecom-microservices\user\src\main\java\com\ecommerce\user" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
