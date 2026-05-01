@@ -4,42 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85875fd7-0dc3-4624-a1b1-293aa469a35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/AddressDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/UserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/service/UserService.java" afterDir="false" />
+    <list default="true" id="c3b1c694-9cfa-48d5-828c-b02da8262873" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dto/CartItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dto/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dto/OrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/model/CartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/model/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/model/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/dto/ProductRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/dto/ProductResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dto/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dto/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dto/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecom-application/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ecom-application/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/controllers/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/controllers/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dtos/CartItemRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dtos/OrderItemDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/dtos/OrderResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/models/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/models/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/models/OrderItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/models/OrderStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/repositories/CartItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/repositories/CartItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/repositories/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/services/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/ecommerce/order/services/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/HELP.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/dtos/ProductRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/dtos/ProductResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/models/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/ecommerce/product/services/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/UserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/controllers/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/AddressDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/UserRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/dtos/UserResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/models/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/com/ecommerce/user/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/UserApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/dto/AddressDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/dto/UserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/dto/UserResponse.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/models/Address.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/models/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/models/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/classes/com/ecommerce/user/services/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/target/test-classes/com/ecommerce/user/UserApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,24 +94,21 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="3Cksxql3ff1x8peonxJfkjJXbeV" />
+  <component name="ProjectId" id="3D4W3UmBDRR8z00j7mXAanffsgF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/springboot/ecom-microservices/user/src/main/java/com.ecommerce.user",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/springboot/ecom-application&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\springboot\ecom-microservices\user\src\main\java\com.ecommerce.user" />
-      <recent name="D:\springboot\ecom-microservices\user\src\main\java\com\ecommerce\user" />
+      <recent name="D:\springboot\ecom-microservices" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -86,15 +118,55 @@
       </set>
     </option>
   </component>
+  <component name="RunManager" selected="Application.OrderApplication">
+    <configuration name="OrderApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.order.OrderApplication" />
+      <module name="order" />
+      <option name="VM_PARAMETERS" value="-Duser.timezone=Asia/Kolkata " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.product.ProductApplication" />
+      <module name="product" />
+      <option name="VM_PARAMETERS" value="-Duser.timezone=Asia/Kolkata " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.ecommerce.user.UserApplication" />
+      <module name="user" />
+      <option name="VM_PARAMETERS" value="-Duser.timezone=Asia/Kolkata " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.UserApplication" />
+      <item itemvalue="Application.ProductApplication" />
+      <item itemvalue="Application.OrderApplication" />
+    </list>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="85875fd7-0dc3-4624-a1b1-293aa469a35a" name="Changes" comment="" />
-      <created>1776941152111</created>
+      <changelist id="c3b1c694-9cfa-48d5-828c-b02da8262873" name="Changes" comment="" />
+      <created>1777541623016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1776941152111</updated>
+      <updated>1777541623016</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ecom_microservices$UserApplication.ic" NAME="UserApplication Coverage Results" MODIFIED="1777625006234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
