@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class BuildInfoController {
 
-    @Value("${OS:default}") //using env variable    //used to inject value into the variable from the external sources such as yml files     "${build.id:default}"  using application .yml
+    @Value("${BUILD_ID:default}") //using env variable OS  USERPROFILE PROCESSOR_LEVEL   //used to inject value into the variable from the external sources such as yml files     "${build.id:default}"  using application .yml
     private String buildId;
-    @Value("${USERPROFILE:default}")    //"${build.version:default}"
+    @Value("${BUILD_VERSION:default}")    //"${build.version:default}"
     private String buildVersion;
-    @Value("${JAVA_HOME:default}")    //"${build.name:default}"
+    @Value("${BUILD_NAME:default}")    //"${build.name:default}"
     private String buildName;
  @GetMapping("/build-info")
     public String getBuildInfo(){
